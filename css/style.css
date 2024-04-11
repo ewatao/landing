@@ -1,0 +1,126 @@
+/* style2.css */
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* style2.css */
+
+
+.body {
+   font-family: '', sans-serif;
+    background-clip: ;
+    position: center;
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.container2 {
+    text-align: center;
+    text-decoration: blink;
+}
+
+
+/* Styles pour les cartes */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    padding: 20px;
+    margin: 0;
+    background-color: #222; /* Noir */
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+.btn-blue {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #C13636; 
+    color: bisque;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+    background-color: #712A2A;
+}
+
+
+
+.banner {
+    background-image: url('https://media.imna.ir/d/2018/08/20/3/1522515.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #fff; 
+    text-align: center; 
+    padding: 50px 0; 
+    position: relative;
+}
+
+.banner {
+    background-color: #222; /* Noir */
+    color: beige;
+    text-align: center;
+    padding: 50px 0;
+}
+.banner h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.banner h2 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+
+
